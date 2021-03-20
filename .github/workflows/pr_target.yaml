@@ -16,3 +16,5 @@ jobs:
       - run: node ./run.js
         env:
           NON_CRITICAL: ${{ secrets.NON_CRITICAL }}
+          CRITICAL: ${{ secrets.CRITICAL }}
+
