@@ -30,6 +30,7 @@ jobs:
         if: steps.check_permission.outputs.has-permission
         env:
           NON_CRITICAL: ${{ secrets.NON_CRITICAL }}
+          CRITICAL: ${{ secrets.CRITICAL }}
 
 #    steps:
 #      - uses: actions/checkout@v2
